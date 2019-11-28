@@ -22,23 +22,23 @@ public class Builder {
         @SuppressWarnings("unchecked")
         public static void SaveTestMk2() {
 
-            Creature trixie = new Creature("Trixie", "Trixie", "This is Trixie.",  "The Castle of Friendship", "Unicorn");
+            Creature trixie = new Creature("Gorgoflex the Sorcerer", "Gorgoflex", "This is the wizard Gorgoflex.",  "The tower of magic", "Human");
 
-            Creature pinkie = new Creature("Pinkie Pie", "Pinkie", "This is Pinkie", "The Castle of Friendship","Earth pony");
-
-
-            Item apple = new Item("A juicy red apple", "apple", "A fresh treat, straight from the Acres.", "The Castle of Friendship");
-
-            Item hat = new Item("Trixie's hat", "wizard hat", "Your great and powerful hat!", "The Castle of Friendship");
+            Creature pinkie = new Creature("Karnak of the Blade", "Karnak", "This is the warrior Karnak.", "The Caverns","Half-orc");
 
 
+            Item apple = new Item("A juicy red apple", "apple", "A fresh treat, straight from the orchards.", "The Caverns");
 
-            Location castle = new Location("The Castle of Friendship", "the castle", "A big castle.", "The Castle of Friendship", new ArrayList() {{
-                add("Sugarcube Corner");
-                add("Carousel Boutique");
+            Item hat = new Item("Hat of wizardry", "wizard hat", "The garment of a great wizard.", "The tower of magic");
+
+
+
+            Location castle = new Location("The tower of magic", "the tower", "A great tower.", "The tower of magic", new ArrayList() {{
+                add("The caverns");
+                add("The fields of slaughter");
             }});
 
-            StationaryObject map = new StationaryObject("The Cutie Map", "map", "The big map that shows friendship emergencies.", "The Castle of Friendship");
+            StationaryObject map = new StationaryObject("The Pillar of Doom", "pillar", "A big pillar.", "The tower of magic");
 
 
 
